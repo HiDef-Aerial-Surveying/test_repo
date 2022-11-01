@@ -2,3 +2,5 @@
 ^\.Rproj\.user$
 ^LICENSE\.md$
 ^build_scripts
+^\.github$
+^README\.Rmd$
