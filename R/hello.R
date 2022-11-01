@@ -1,18 +1,15 @@
-# Hello, world!
-#
-# This is an example function named 'hello' 
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Install Package:           'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
+#' This is a test function
+#'
+#' this is a test function to practice my package building
+#' @param input put an input (numeric)
+#' @export
+#' @examples
+#' test_function(10)
 
-hello <- function() {
-  print("Hello, world!")
+
+test_function <- function(input) {
+ if(!is.numeric(input)){stop("please use numeric input!")}
+ x <- input*150 #comment here,comment here,comment here,comment here,comment here
+ return(x)
 }
+
