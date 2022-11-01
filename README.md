@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/HiDef-Aerial-Surveying/test_repo/workflows/R-CMD-check/badge.svg)](https://github.com/HiDef-Aerial-Surveying/test_repo/actions)
+[![R-CMD-check](https://github.com/HiDef-Aerial-Surveying/test_repo/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/HiDef-Aerial-Surveying/test_repo/actions/workflows/check-standard.yaml)
 <!-- badges: end -->
 
 The goal of testpackage is to …
